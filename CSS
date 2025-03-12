@@ -1,5 +1,5 @@
 /* ESTILO GERAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,22 +8,148 @@
 body {
     background-color: white;
     height: 100vh;
+    font-family: Arial, sans-serif; /* Fonte padrão */
 }
 
-.interface{
+/* Layout da página (resolução fixa 1920x1080) */
+html, body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden; /* Evita barras de rolagem */
+}
+
+/* Retângulo que está atrás do conteúdo principal */
+.retangulo {
+    position: absolute;
+    top: 0px;
+    left: 262px;
+    width: 1396px;
+    height: 4658px;
+    background: #FFFFFF;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 14px #00000012;
+    opacity: 1;
+    z-index: -1; /* Garante que fique atrás de outros elementos */
+}
+
+/* Banner com imagem de fundo */
+.banner-home {
+    position: absolute;
+    top: 123px;
+    left: 262px;
+    width: 1396px;
+    height: 780px;
+    
+    /* Caminho da imagem */
+    background: transparent url('img/Pagina Inicial/BANNER-HOME.png') 0% 0% no-repeat padding-box;
+    background-size: cover; /* A imagem irá cobrir todo o elemento */
+    border-radius: 0px 0px 258px 258px;
+    opacity: 0.96;
+}
+
+/* Estilo da Interface (Contêiner principal) */
+.interface {
     max-width: 1280px;
     margin: 0 auto;
+    width: 100%;
 }
 
-/* ESTILO DO CABEÇALHO */
-
-header{
-    padding: 40PX 4%;
+/* Estilo do Cabeçalho */
+header {
+    padding: 40px 4%;
+    background-color: #FBFBFB;
+    color: #85C2AD;
 }
 
-header > .interface{
+header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/* Logo */
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+/* Menu Desktop */
+.menu-desktop ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.menu-desktop ul li {
+    display: inline-block;
+}
+
+.menu-desktop ul li a {
+    color: #85C2AD; /* Cor dos links */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-desktop ul li a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Menu Mobile - Responsividade */
+@media (max-width: 768px) {
+    .menu-desktop ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu-desktop ul li a {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    /* Ajuste da logo em dispositivos móveis */
+    .logo img {
+        width: 120px;
+    }
+}
+
+/* Estilo do texto "PEDIATRIA E NEFROLOGIA" */
+.ped-nefro-text {
+    position: absolute;
+    top: 432px;    /* Posição do texto PEDIATRIA E NEFROLOGIA */
+    left: 340px;   /* Posição da margem esquerda */
+    width: 300px;  /* Largura do bloco de texto */
+    height: auto;  /* Altura automática para adaptar ao conteúdo */
+    
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF; /* Cor branca */
+    text-transform: uppercase; /* Transformação para caixa alta */
+    opacity: 1; /* Totalmente visível */
+    font: normal normal normal 49px/60px Comfortaa; /* Fonte conforme solicitado */
+}
+
+/* Estilo do texto "INFANTIL" */
+.infantil-text {
+    position: absolute;
+    top: 435px;    /* Posição do texto INFANTIL, logo abaixo de PEDIATRIA E NEFROLOGIA */
+    left: 339px;   /* Posição da margem esquerda */
+    width: 220px;  /* Largura do bloco de texto */
+    height: auto;  /* Altura automática para adaptar ao conteúdo */
+
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF; /* Cor branca */
+    text-transform: uppercase; /* Transformação para caixa alta */
+    opacity: 1; /* Totalmente visível */
+    font: normal normal bold 49px/60px Comfortaa; /* Fonte negrito */
+}
+
 
