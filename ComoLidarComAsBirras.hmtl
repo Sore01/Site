@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Lidar com as Birras e Emoções das Crianças</title>
+    <style>
+        /* Estilo geral da página */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #7C7C7C;
+            overflow-y: auto; /* Permite rolagem vertical */
+            height: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        /* Título principal */
+        .main-title {
+            text-align: center;
+            font-family: 'Comfortaa', cursive;
+            font-size: 24px;
+            color: #FFFFFF;
+            background-color: #4A7866;
+            padding: 20px;
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+
+        /* Link de Voltar */
+        .back-link {
+            display: inline-block;
+            font-size: 16px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        /* Conteúdo principal */
+        .content {
+            margin: 40px 20px;
+            line-height: 1.8;
+        }
+
+        .content h2 {
+            color: #FFFFFF;
+            font-family: 'Comfortaa', cursive;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #7C7C7C;
+            margin-bottom: 30px;
+        }
+
+        /* Seção de "Outros" */
+        .section-title {
+            font-family: 'Comfortaa', cursive;
+            font-size: 24px;
+            color: #4A7866;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        /* Posts relacionados */
+        .post {
+            background-color: #4A7866;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .post a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        /* Paginação */
+        .pagination {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .page-number {
+            font-size: 24px;
+            color: #FFFFFF;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .page-number.active {
+            color: #C49395;
+        }
+
+        /* Adicionando algum espaçamento no rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilos para as seções específicas de conteúdo */
+        .content-section {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho com logo -->
+    <header>
+        <img src="img/Pagina Inicial/Logo Suzane Sales.jpeg" alt="Logo Dra. Suzane Sales">
+    </header>
+
+    <!-- Título principal -->
+    <div class="main-title">
+        COMO LIDAR COM AS BIRRAS E EMOÇÕES DAS CRIANÇAS?
+    </div>
+
+    <!-- Link de Voltar -->
+    <a href="#" class="back-link">&lt;&lt; Voltar</a>
+
+    <!-- Conteúdo do blog -->
+    <div class="content">
+
+        <!-- Seção 1: Introdução sobre Birras -->
+        <div class="content-section">
+            <h2>As birras e os comportamentos desafiadores fazem parte do desenvolvimento infantil</h2>
+            <p>As birras e os comportamentos desafiadores fazem parte do desenvolvimento infantil, mas podem ser desafiadores para os pais. Quando as crianças estão tendo uma crise, é importante que os pais se mantenham calmos e ofereçam apoio emocional.</p>
+        </div>
+
+        <!-- Seção 2: Ajudando a criança a expressar suas emoções -->
+        <div class="content-section">
+            <h2>Ajude seu filho a expressar suas emoções</h2>
+            <p>Uma dica importante aqui é ajudar a criança a expressar suas emoções. É fundamental que os pais ensinem os filhos a identificar o que estão sentindo e expressar de forma saudável, sem agressividade ou birras.</p>
+        </div>
+
+        <!-- Seção 3: Oferecendo alternativas de comportamento -->
+        <div class="content-section">
+            <h2>Ofereça alternativas de comportamento</h2>
+            <p>Outra dica é oferecer alternativas de comportamento. Em vez de simplesmente dizer "não" a uma demanda da criança, os pais podem oferecer opções que sejam adequadas para a situação. Por exemplo, se a criança quer um doce antes do jantar, em vez de dizer "não", os pais podem dizer que ela pode escolher entre uma fruta ou um iogurte.</p>
+        </div>
+
+        <!-- Seção 4: Estimulando o desenvolvimento da inteligência emocional -->
+        <div class="content-section">
+            <h2>Estimule o desenvolvimento da inteligência emocional</h2>
+            <p>Por fim, é importante que você, pai ou mãe, estimule o desenvolvimento da inteligência emocional nas crianças. Isso envolve ensinar os pequenos a identificarem e lidarem com emoções de forma saudável, além de mostrar a importância da empatia e da compaixão.</p>
+        </div>
+
+    </div>
+
+    <!-- Título da seção de outros posts -->
+    <div class="section-title">
+        OUTROS
+    </div>
+
+    <!-- Posts relacionados -->
+    <div class="post">
+        <a href="#">Quais os primeiros cuidados com o recém-nascido? 6 dicas especiais do dia a dia para seu filho ficar mais seguro e tranquilo.</a>
+    </div>
+
+    <div class="post">
+        <a href="#">Qual a importância das brincadeiras para desenvolver o meu filho? Saiba como as brincadeiras são fundamentais aos pequenos.</a>
+    </div>
+
+    <div class="post">
+        <a href="#">Como lidar com as birras e emoções das crianças? Veja algumas dicas para lidar com esta situação.</a>
+    </div>
+
+    <div class="post">
+        <a href="#">De que forma a rotina desenvolve os pequenos? Saiba por que a rotina é fundamental ao crescimento saudável das crianças.</a>
+    </div>
+
+    <div class="post">
+        <a href="#">Como estimular a autonomia infantil? Incentivar a autonomia é importante. Veja algumas dicas do que fazer.</a>
+    </div>
+
+    <!-- Paginação -->
+    <div class="pagination">
+        <span class="page-number">01</span>
+        <span class="page-number active">02</span>
+        <span class="page-number">03</span>
+        <span class="page-number">04</span>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Dra. Suzane Sales | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
